@@ -6,3 +6,6 @@ sklearn
 seaborn
 xgboost
 google-cloud-bigquery
+altair
+PIL
+pandas_gbq
