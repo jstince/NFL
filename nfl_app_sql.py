@@ -48,7 +48,7 @@ st.markdown('')
 # Sidebar - Year and Week
 st.sidebar.header('User Inputs')
 selected_year = st.sidebar.selectbox('Year', list(reversed(range(2000, 2022))))
-selected_week = st.sidebar.selectbox('Week', list(range(1, 23)))
+selected_week = st.sidebar.selectbox('Week', list(range(1, 22)))
 
 # Function to filter data based on sidebar inputs
 def filterData(raw_df, week, year):
